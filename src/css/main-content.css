@@ -1,4 +1,5 @@
 .main-content {
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,8 +7,50 @@
 
 .main-content-description {
   margin-left: 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-content img {
   width: 100%;
+}
+
+.image-content {
+  border-radius: 5%;
+}
+
+.description {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-country {
+  color: #2b283a;
+  letter-spacing: 17%;
+  font-family: "Cabin", sans-serif;
+}
+
+.title-google {
+  color: #918e9b;
+  font-family: "Cabin", sans-serif;
+}
+
+.pic-desc {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: -1px;
+}
+
+.date {
+  color: #2b283a;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+}
+
+.content-paragraph {
+  color: #2b283a;
+  font-family: "Cabin", sans-serif;
 }
