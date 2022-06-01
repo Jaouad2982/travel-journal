@@ -1,10 +1,12 @@
 import React from "react"
 import "../css/header.css"
+import earth from "../images/earth.png"
 const Header = () => {
     return (
         <nav className="header">
-            <img src="" />
-            <h5 className="header-title">My travel journal</h5>
+            <div>
+            </div>
+            <h5 className="header-title">my travel journal.</h5>
         </nav >
     )
 }
