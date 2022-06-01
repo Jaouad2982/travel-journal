@@ -1,11 +1,10 @@
 import React from "react"
 import "../css/main-content.css"
-import japan from "../images/japan.jpg"
-const MainContent = ({ location, descPicture, date, description }) => {
+const MainContent = ({ image, location, descPicture, date, description }) => {
     return (
         <section className="main-content">
-            <div>
-                <img className="image-content" src={japan} alt="Japan" />
+            <div className="image">
+                <img src={image} alt="" />
             </div>
             <div className="main-content-description">
                 <div className="description">
@@ -15,10 +14,9 @@ const MainContent = ({ location, descPicture, date, description }) => {
                 <h4 className="pic-desc">{descPicture}</h4>
                 <p className="date">{date}</p>
                 <p className="content-paragraph">{description}</p>
-
             </div>
-        </section>
 
+        </section>
     )
 }
 export default MainContent

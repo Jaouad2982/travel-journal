@@ -5,18 +5,15 @@
   align-items: center;
 }
 
+.main-content img {
+  width: 400px;
+  border-radius: 5%;
+}
+
 .main-content-description {
   margin-left: 5%;
   display: flex;
   flex-direction: column;
-}
-
-.main-content img {
-  width: 100%;
-}
-
-.image-content {
-  border-radius: 5%;
 }
 
 .description {
