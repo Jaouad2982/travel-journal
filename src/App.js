@@ -6,6 +6,7 @@ import australia from "./images/australiajpg.jpg"
 import norway from "./images/norway.jpg"
 import data from "./data/data"
 function App() {
+
   return (
     <div className="container">
       <Header />
