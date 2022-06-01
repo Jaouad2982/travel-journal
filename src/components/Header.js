@@ -1,6 +1,5 @@
 import React from "react"
 import "../css/header.css"
-import earth from "../images/earth.png"
 const Header = () => {
     return (
         <nav className="header">
