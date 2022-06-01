@@ -1,0 +1,13 @@
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content-description {
+  margin-left: 5%;
+}
+
+.main-content img {
+  width: 100%;
+}
